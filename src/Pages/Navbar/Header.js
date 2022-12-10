@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../asests/image/dp/dp1.JPG";
+import img from "../../asests/image/dp/dp3.png";
 import { Typewriter } from "react-simple-typewriter";
 
 export const Header = () => {
@@ -29,7 +29,11 @@ export const Header = () => {
           </a>
         </div>
         <div className="m-20 bg-gradient-to-r from-indigo-600 to-pink-600 p-1 rounded-full">
-          <img className="w-80 h-80 rounded-full " src={img} alt="" />
+          <img
+            className="w-80 h-80 rounded-full bg-gray-300 "
+            src={img}
+            alt=""
+          />
         </div>
       </div>
     </div>
