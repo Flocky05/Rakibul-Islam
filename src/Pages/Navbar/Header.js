@@ -4,16 +4,15 @@ import img from "../../asests/image/dp/dp1.JPG";
 export const Header = () => {
   return (
     <div>
-      <div className="flex space-around grid-cols-2">
-        <div>
-          <h2 className="text-3xl forn-bold">Hey,Guys</h2>
+      <div className="flex justify-between items-center">
+        <div className="m-20">
+          <h2 className="text-3xl forn-bold">Hey,I am Junior Web Developer</h2>
+          <button className="bg-gradient-to-r from-indigo-500 to-pink-500 text-white px-5 py-2 m-2 rounded-lg">
+            Resume
+          </button>
         </div>
-        <div>
-          <img
-            className="w-64 h-64 rounded-full border-8 bg-cyan-300"
-            src={img}
-            alt=""
-          />
+        <div className="m-20 bg-gradient-to-r from-indigo-600 to-pink-600 p-2 rounded-full">
+          <img className="w-80 h-80 rounded-full " src={img} alt="" />
         </div>
       </div>
     </div>
