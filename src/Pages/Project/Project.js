@@ -26,7 +26,7 @@ const Project = () => {
                 <div>
                   <a href={el.githubLink} target="blank">
                     {" "}
-                    <button className="bg-white  text-pink-400 border border-pink-400 px-5 py-2 m-2 rounded-lg font-semibold">
+                    <button className="bg-white  text-pink-400 border border-pink-400 px-5 py-2 m-2 rounded-lg font-semibold ">
                       Code link
                     </button>
                   </a>

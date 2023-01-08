@@ -5,8 +5,8 @@ import { Typewriter } from "react-simple-typewriter";
 export const Header = () => {
   return (
     <div>
-      <div className="flex justify-between items-center">
-        <div className="m-20">
+      <div className="flex justify-between items-center flex-col-reverse lg:flex-row">
+        <div className="m-2 lg:m-20">
           <h2 className="text-4xl font-semibold tracking-wider mb-10">
             <Typewriter
               words={[
@@ -30,7 +30,7 @@ export const Header = () => {
         </div>
         <div className="m-20 bg-gradient-to-r from-indigo-600 to-pink-600 p-1 rounded-full">
           <img
-            className="w-80 h-80 rounded-full bg-gray-300 "
+            className="w-32 h-32 rounded-full bg-gray-300 lg:w-80 lg:h-80 "
             src={img}
             alt=""
           />

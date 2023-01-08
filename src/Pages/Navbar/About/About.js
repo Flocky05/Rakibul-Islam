@@ -4,10 +4,10 @@ import img from "../../../asests/image/dp/rakibul1.jpg";
 const About = () => {
   return (
     <div className="hero min-h-screen m-24">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col lg:flex-row">
         <img
           src={img}
-          className="w-1/2 rounded-lg shadow-2xl border-2 border-cyan-600"
+          className="w-full rounded-lg shadow-2xl border-2 border-cyan-600 "
           alt=""
         />
         <div>
