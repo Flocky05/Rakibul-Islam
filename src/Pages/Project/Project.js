@@ -9,7 +9,7 @@ const Project = () => {
       </div>
       <div className="grid grid-cols-3 gap-4">
         {projects?.map((el) => (
-          <div className="card bg-pink-100/30 card-compact w-96 shadow-xl">
+          <div className="card bg-pink-100/30 card-compact w-full shadow-xl">
             <figure>
               <img src={el.img} alt="Shoes" />
             </figure>
@@ -17,14 +17,14 @@ const Project = () => {
               <h2 className="card-title">{el.name}</h2>
               <div className="flex  ">
                 <div>
-                  <a href={el.liveLink}>
+                  <a href={el.liveLink} target="blank">
                     <button className="bg-pink-400  text-white px-5 py-2 m-2 rounded-lg font-semibold">
                       Live link
                     </button>
                   </a>
                 </div>
                 <div>
-                  <a href={el.githubLink}>
+                  <a href={el.githubLink} target="blank">
                     {" "}
                     <button className="bg-white  text-pink-400 border border-pink-400 px-5 py-2 m-2 rounded-lg font-semibold">
                       Code link

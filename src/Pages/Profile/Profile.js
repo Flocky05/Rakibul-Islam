@@ -8,12 +8,12 @@ import img5 from "../../asests/image/profile/twitter-50.png";
 const Profile = () => {
   return (
     <div className="grid grid-cols-1 fixed top-1/2 -translate-y-1/2 left-6 z-50 gap-5">
-      <a href="https://github.com/Flocky05">
+      <a href="https://github.com/Flocky05" target="blank">
         <div>
           <img className="w-10 h-10 rounded-full" src={img1} alt="" />
         </div>
       </a>
-      <a href="https://www.linkedin.com/in/rakibulislam2527/">
+      <a href="https://www.linkedin.com/in/rakibulislam2527/" target="blank">
         <div>
           <img className="w-10 h-10 rounded-full" src={img2} alt="" />
         </div>
@@ -21,12 +21,15 @@ const Profile = () => {
       <div>
         <img className="w-10 h-10 rounded-full" src={img3} alt="" />
       </div>
-      <a href="https://drive.google.com/file/d/1GXtvXuihnkRckEdls9hxbQnFCLkQKQT8/view?usp=share_link">
+      <a
+        href="https://drive.google.com/file/d/1GXtvXuihnkRckEdls9hxbQnFCLkQKQT8/view?usp=share_link"
+        target="blank"
+      >
         <div>
           <img className="w-10 h-10 rounded-full" src={img4} alt="" />
         </div>
       </a>
-      <a href="https://twitter.com/MdRakib41325979">
+      <a href="https://twitter.com/MdRakib41325979" target="blank">
         <div>
           <img className="w-10 h-10 rounded-full" src={img5} alt="" />
         </div>
