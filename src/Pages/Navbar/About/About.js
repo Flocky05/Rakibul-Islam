@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../asests/image/dp/rakibul1.jpg";
+import img from "../../../asests/image/dp/rakibul.JPG";
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <div className="hero-content flex-col lg:flex-row">
         <img
           src={img}
-          className="w-full rounded-lg shadow-2xl border-2 border-cyan-600 "
+          className="w-1/2 h-3/5 rounded-lg shadow-2xl border-2 border-cyan-600 "
           alt=""
         />
         <div>
