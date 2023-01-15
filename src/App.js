@@ -9,7 +9,7 @@ import Profile from "./Pages/Profile/Profile";
 
 function App() {
   return (
-    <div className=" px-32 bg-gradient-to-b from-indigo-100 to-pink-200">
+    <div className="px-32 bg-gradient-to-b from-indigo-100 to-pink-200">
       <div>
         <Profile></Profile>
         <Navbar></Navbar>
