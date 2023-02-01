@@ -7,7 +7,7 @@ import img5 from "../../asests/image/profile/twitter-50.png";
 
 const Profile = () => {
   return (
-    <div className="grid grid-cols-1 fixed top-1/2 -translate-y-1/2 left-6 z-50 gap-5">
+    <div className="grid grid-cols-1 fixed top-1/3 md:top-1/2 -translate-y-1/2 left-6 z-50 gap-5">
       <a href="https://github.com/Flocky05" target="blank">
         <div>
           <img className="w-10 h-10 rounded-full" src={img1} alt="" />

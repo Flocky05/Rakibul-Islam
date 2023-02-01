@@ -7,9 +7,9 @@ const Project = () => {
       <div className="text-3xl font-semibold text-center p-7">
         <h2>Here are some projects</h2>
       </div>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 px-20 sm:p-0">
         {projects?.map((el) => (
-          <div className="card bg-pink-100/30 card-compact w-full shadow-xl">
+          <div className="card bg-pink-100/30 card-compact w-full max-w-xs mx-auto shadow-xl">
             <figure>
               <img src={el.img} alt="Shoes" />
             </figure>

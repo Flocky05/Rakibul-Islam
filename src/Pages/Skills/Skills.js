@@ -7,9 +7,9 @@ const Skills = () => {
         <h2 className="text-3xl text-center font-semibold p-10">Skills </h2>
       </div>
       <div className="grid place-content-center">
-        <div className="grid grid-cols-4 gap-20">
+        <div className="grid grid-cols-4 gap-4 md:gap-20">
           {images?.map((el, i) => (
-            <img alt="" className="w-14" key={i} src={el.image} />
+            <img alt="" className="w-14 p-2 md:p-0" key={i} src={el.image} />
           ))}
         </div>
       </div>

@@ -1,13 +1,16 @@
 import React from "react";
+import { useRef } from "react";
 
 const Contact = () => {
+  const contactRef = useRef(null);
+  console.log(contactRef);
   return (
-    <div className="p-28" id="contact">
+    <div ref={contactRef} className="md:p-28" id="contact">
       <div>
-        <h2 className="text-2xl font-semibold text-center">CONTACT</h2>
+        <h2 className="text-2xl font-semibold text-center mt-16">CONTACT</h2>
       </div>
       <div className="hero">
-        <div className="hero-content flex-col lg:flex-row-reverse">
+        <div className="hero-content w-full flex-col lg:flex-row-reverse">
           <div className="card flex-shrink-0 w-full md:min-w-[550px] shadow-2xl bg-pink-200">
             <div className="card-body">
               <div className="form-control">

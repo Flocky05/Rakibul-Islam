@@ -7,7 +7,7 @@ const About = () => {
       <div className="flex flex-col lg:flex-row items-center gap-10">
         <img
           src={img}
-          className="w-1/2 h-[37rem] rounded-lg shadow-2xl border-4 border-indigo-200"
+          className="md:w-1/2 w-full md:h-[37rem] h-96 object-cover rounded-lg shadow-2xl border-4 border-indigo-200"
           alt=""
         />
         <div>
