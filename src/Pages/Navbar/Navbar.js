@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex-none">
           <ul className=" menu-horizontal p-3">
             <li>
-              <a href="#" className="p-3">
+              <a href="#home" className="p-3">
                 Home
               </a>
             </li>
