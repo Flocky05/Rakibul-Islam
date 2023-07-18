@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="navbar">
         <div className="flex-1">
           <h2 className="text-3xl font-bold">
-            <span className="text-indigo-600">Rakibul</span> Islam
+            <span className="text-indigo-600  ">Rakibul</span> Islam
           </h2>
         </div>
         <div className="flex-none">

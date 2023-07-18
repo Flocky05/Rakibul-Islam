@@ -1,5 +1,6 @@
 import React from "react";
 import img from "../../../asests/image/dp/rakibul.JPG";
+import AnimatedText from "react-animated-text-content";
 
 const About = () => {
   return (
@@ -12,20 +13,43 @@ const About = () => {
         />
         <div>
           <div className="mx-auto text-xl text-justify">
-            <span className="text-3xl font-semibold my-5">
+            {/* <span className="text-3xl font-semibold my-5">
               Hi, I'm Md. Rakibul Islam
+            </span> */}
+            <span className="text-3xl font-semibold ">
+              <AnimatedText
+                type="chars"
+                interval={0.04}
+                duration={0.8}
+                animation={{
+                  y: "100px",
+                  ease: "ease-in",
+                  scale: 1.86,
+                }}
+              >
+                Md.Rakibul Islam
+              </AnimatedText>
             </span>
             <br />
             <br />
-            I’m a Web Developer and has been learning web developing more than 1
-            year now. I am studying B.Sc in Computer Science and Engineering in
-            Faridpur Engineering College.
-            <br />
-            <br /> With the ability to learn new things and adapt in both
-            self-starting and collaborative environments while staying focused
-            on achieving high-quality results under strict deadlines. Eager to
-            obtain a challenging position at a prestigious company. I’m very
-            much interested in new technologies and problem solving.
+            <AnimatedText
+              type="chars"
+              interval={0.04}
+              duration={0.4}
+              animation={{
+                y: "100px",
+                ease: "ease",
+              }}
+            >
+              I’m a Web Developer and has been learning web developing more than
+              1 year now. I am completed B.Sc in Computer Science and
+              Engineering in Faridpur Engineering College. With the ability to
+              learn new things and adapt in both self-starting and collaborative
+              environments while staying focused on achieving high-quality
+              results under strict deadlines. Eager to obtain a challenging
+              position at a prestigious company. I’m very much interested in new
+              technologies and problem solving.
+            </AnimatedText>
           </div>
         </div>
       </div>
