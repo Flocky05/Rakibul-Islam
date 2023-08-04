@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../../asests/image/dp/rakibul.JPG";
+import img from "../../../asests/image/dp/dp4.png";
 import AnimatedText from "react-animated-text-content";
 
 const About = () => {

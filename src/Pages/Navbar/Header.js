@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../asests/image/dp/dp3.png";
+import img from "../../asests/image/dp/dp6.png";
 import { Typewriter } from "react-simple-typewriter";
 
 export const Header = () => {
