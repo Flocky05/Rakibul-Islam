@@ -30,7 +30,7 @@ export const Header = () => {
         </div>
         <div className="md:m-20 mt-10 mb-6 bg-gradient-to-r from-indigo-600 to-pink-600 p-1 rounded-full">
           <img
-            className="w-32 h-32 rounded-full bg-gray-300 lg:w-80 lg:h-80 "
+            className="w-44 h-44 rounded-full lg:w-80 lg:h-80 "
             src={img}
             alt=""
           />
